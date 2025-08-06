@@ -3,22 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-<<<<<<< HEAD
- "homepage": "https://vanshsoni2003.github.io/perfume-project",
-
+  "homepage": "https://vanshsoni2003.github.io/perfume-project",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "lint": "eslint .",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-=======
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
->>>>>>> e544bd2b2daa1fcd10290220b9bfca9ed25f538a
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
@@ -26,23 +18,23 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-redux": "^9.2.0",
-    "react-router-dom": "^7.6.1",
-    "tailwindcss": "^4.1.7"
+    "react-router-dom": "^7.6.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
+    "@tailwindcss/postcss": "^4.1.11",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
     "daisyui": "^5.0.37",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
-<<<<<<< HEAD
     "gh-pages": "^6.3.0",
-=======
->>>>>>> e544bd2b2daa1fcd10290220b9bfca9ed25f538a
     "globals": "^16.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
     "vite": "^6.3.5"
   }
 }
